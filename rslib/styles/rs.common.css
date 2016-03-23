@@ -1,0 +1,238 @@
+/* -------------- Reset CSS -------------- */
+body{
+	font-family:arial;
+	font-size:13px;
+}
+body,form{
+	margin:0;
+	padding:0;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a img {
+	border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{
+	text-decoration:none;
+    outline:none;
+}
+
+/* -------------- WordPress Core -------------- */
+.alignnone {
+}
+.aligncenter, 
+div.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+.wp-caption {
+	 background: #fff;
+	 border: 1px solid #f0f0f0;
+	 max-width: 96%;
+	 padding: 5px 3px 10px;
+	 text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	 border: 0 none;
+	 height: auto;
+	 margin: 0;
+	 max-width: 98.5%;
+	 padding: 0;
+	 width: auto;
+}
+.wp-caption p.wp-caption-text {
+	 font-size: 11px;
+	 line-height: 1.5em;
+	 margin: 0;
+	 padding: 0 4px 5px;
+}
+img.wp-smiley {
+	vertical-align: middle;
+}
+.media-frame-content{
+	border-color:#ddd;
+}
+
+.sticky .entry-date {
+	display: none;
+}
+
+
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.bypostauthor > article .fn:before {
+	content: "\f408";
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+
+.clear{
+	clear:both;
+}
+
+/* common control */
+.rs-hidden,
+.rs-js-hidden,
+.rs-js-disabled,
+.rs-rule-disabled,
+.rs-logic-disabled{
+	display:none!important;
+}
+.rs-table,
+.rs-control,
+.rs-button{
+	font-family:arial;
+	font-size:12px;
+}
+.rs-table{
+	width:100%;
+	border:1px solid #E5E5E5;
+	border-spacing:0;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.04);
+	background:#fff;
+	min-height:10px;
+	background:#fff;
+}
+.rs-table td,
+.rs-table th{
+	padding:8px;
+	overflow: visible;
+	vertical-align: top;
+	border: 1px solid #E1E1E1;
+	border-right:0 none;
+	border-bottom:0 none;
+	background:#fff;
+}
+.rs-table tr td:first-child,
+.rs-table tr th:first-child{
+	border-left:0 none;
+}
+.rs-table th{
+	font-weight:bold;
+	color:#333;
+	border-top:0 none;
+}
+.rs-table >thead >tr >th,
+.rs-table >tbody >tr:first-child >td,
+.rs-table >tbody >tr:first-child >th{
+	border-top:0 none;
+}
+.rs-table >thead >tr >th{
+	border-bottom:1px solid #e1e1e1;
+}
+.rs-table >tbody >tr >th{
+	border-top:1px solid #e1e1e1;
+}
+
+/* loading */
+.rs-loading{
+	background: url("../images/loading.gif") no-repeat scroll center center #000000;
+    height: 44px;
+    width: 44px;
+	border-radius:8px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin-left:-22px;
+	margin-top:-22px;
+	z-index:2147483647;
+	opacity:.8;
+}
+
+/* messager */
+.rs-messager{
+	background: #000000;
+    position:fixed;
+	z-index:2147483647;
+	left:50%;
+	top:50%;
+	padding:15px;
+	border-radius:8px;
+	color:#fff;
+	opacity:0.8;
+}

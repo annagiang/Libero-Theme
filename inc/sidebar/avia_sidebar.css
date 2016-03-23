@@ -1,0 +1,61 @@
+.sidebar-avia-custom{
+position: relative;
+}
+
+.avia-custom-sidebar-area-delete{
+height:24px;
+width: 24px;
+position: absolute;
+z-index: 100;
+top: 11px;
+right: 38px;
+background: transparent url(icon-trash.png) no-repeat top left;
+}
+
+.avia-custom-sidebar-area-delete:hover{
+background: transparent url(icon-trash.png) no-repeat bottom left;
+cursor: pointer;
+}
+
+.activate_spinner{
+display: block !important;
+position: absolute;
+top: 10px;
+right: 4px;
+background-color: #ECECEC;
+}
+
+.avia-add-widget {
+background-color: #FFF;
+padding: 10px 10px 20px;
+text-align: center;
+margin: 10px 0 0 0;
+border: 1px solid #E5E5E5;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#wpwrap .avia-add-widget .avia_button {
+margin-top: 0px;
+padding: 7px 15px;
+vertical-align: top;
+height: 35px;
+position: relative;
+border: 0;
+color: #fff;
+cursor: pointer;
+border-radius: 2px;
+background-color: #3699db;
+border-bottom: 2px solid #285e8e;
+}
+#wpwrap .avia-add-widget .avia_button:hover {
+	background-color: #3071a9
+}
+#wpwrap .avia-add-widget .avia_style_wrap input {
+    height: 34px;
+    line-height: 22px;
+    min-width: 300px;
+    padding: 3px 10px;
+    text-align: left;
+}
+.avia-add-widget .avia_style_wrap { max-width: 95%; background: transparent; }

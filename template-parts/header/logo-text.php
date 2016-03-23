@@ -1,0 +1,1 @@
+<?php echo get_theme_mod('libero_logo_text') ?>

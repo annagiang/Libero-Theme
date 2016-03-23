@@ -1,0 +1,44 @@
+.rs-checkbox img + input + a,
+.rs-radio img + input + a{
+	display:none;
+}
+
+
+.rs-control.display-list .rs-radio-label img,
+.rs-control.display-list .rs-checkbox-label img{
+    margin-right:10px;
+	vertical-align:middle;
+}
+
+.rs-control.display-list .rs-radio-label span,
+.rs-control.display-list .rs-checkbox-label span{
+    vertical-align:middle;
+}
+.rs-control.display-inline li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.rs-control.display-inline .rs-radio-label,
+.rs-control.display-inline .rs-checkbox-label {
+    display: block;
+	margin-right: 5px;
+	text-align:center;
+}
+
+.rs-control.display-inline .rs-radio-label span,
+.rs-control.display-inline .rs-checkbox-label span{
+    display:block;
+	margin-top:5px;
+}
+
+.rs-radio-label img,
+.rs-checkbox-label img {
+    border: 2px solid transparent;
+	padding:1px;
+	opacity: 0.6;
+}
+.rs-radio-label.checked  img,
+.rs-checkbox-label.checked  img {
+    border: 2px solid #6fe3fd;
+    opacity: 1;
+}

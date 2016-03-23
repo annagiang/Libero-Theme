@@ -1,0 +1,6 @@
+/*!
+* Author: Yakir Sitbon.
+* Project Url: https://github.com/KingYes/jquery-radio-image-select
+* Author Website: http://www.yakirs.net/
+**/
+img.radio-select-img-item{border:solid 2px #dcdcdc;margin-right:0;cursor:pointer;opacity:.6}img.radio-select-img-item.item-checked{border:solid 2px #6fe3fd;opacity:1}input.radioImageSelect{display:none !important}.customize-control-radio-image label{display:inline-block;*display:inline;zoom:1;margin-right:12px}

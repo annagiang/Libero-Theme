@@ -1,0 +1,14 @@
+.customize-control .rst-bg-position-vertical,
+.customize-control .rst-bg-position-horizontal {
+	width: 75px;
+	min-width: 75px;
+}
+.customize-control-font label.normal {
+    background-color: transparent;
+    border: 0 none;
+    padding: 0;
+    text-align: left;
+}
+.customize-control-rsbackground .rs_hidden_control {
+	display: none;
+}

@@ -1,0 +1,125 @@
+.handle-groupbox {
+	display: inline-block;
+    font: 400 20px/1 dashicons;
+    padding: 8px 10px;
+    position: relative;
+    right: 12px;
+    text-decoration: none !important;
+    top: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.rs-control-cpanel .handle-groupbox {
+	padding-bottom: 0;
+    padding-right: 8px;
+    padding-top: 9px;
+}
+.js .meta-box-sortables  .handle-groupbox::before ,
+.handle-groupbox::before {
+	content: "\f142";
+	color: #aaa;
+}
+.js .meta-box-sortables .closed .handle-groupbox::before ,
+.closed .handle-groupbox::before {
+	content: "\f140";
+	color: #aaa;
+}
+.rs-box-group {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+}
+.rs-group-table .row::before, 
+.rs-group-table .row::after {
+	display: none;
+}
+.rs-control-cpanel .rs-box-group-container {
+	margin-top: 0px;
+	border-top: 1px solid #dedede;
+}
+.rs-control-cpanel.rs-box-group {
+	border-bottom: 1px solid #dedede;
+    margin: 10px 0px 10px 0px;
+    position: relative;
+	padding: 0;
+}
+.rs-group-label {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 8px 0;
+    padding-left: 10px;
+	display: none;
+}
+.rs-field-label.label.rs-group-label > label {
+    display: block;
+    line-height: 28px;
+    padding-bottom: 0;
+}
+
+.rs-control-cpanel.rs-box-group > .rs-field-label,
+.rs-control-cpanel.rs-box-group > .rs-field-editor {
+	width: 100%;
+	padding: 0;
+	position: static;
+}
+
+
+
+.rs-control-cpanel.rs-box-group .rs-field-editor {
+	border-top: 0 none;
+}
+.rs-control-cpanel.rs-box-group .rs-group-label label {
+	font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 0;
+	color: #000;
+}
+.rs-control-cpanel.rs-box-group .rs-box-group-container label {
+	cursor: auto;
+}
+.rs-metabox .label,
+.rs-control-cpanel.rs-box-group .rs-field-label {
+	cursor: pointer;
+}
+.rs-control-cpanel.rs-box-group .rs-field-label {
+	padding-left: 10px;
+}
+.rs-control-cpanel.rs-box-group .rs-field-label::selection ,
+.rs-control-cpanel.rs-box-group .rs-field-label label::selection {
+	background: transparent;
+}
+.rs-box-group-container {
+	border-top: 1px solid #dedede;
+    padding: 10px;
+}
+.rs-box-group-container.closed {
+    display: none;
+}
+.rs-box-group-container > label:not(.rs-group-label) {
+    display: block;
+    padding: 10px 0;
+}
+.rs-group .rs-group {
+	position: relative;
+	margin-top: 10px;
+	border: 1px solid #dedede;
+}
+.label.rs-group-label {
+    display: none;
+}
+.label.rs-group-label.display-block {
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding-bottom: 7px;
+    padding-top: 11px;
+    text-align: left;
+}
+.rs-control + .rs-group-label {
+    display: none;
+}

@@ -1,0 +1,23 @@
+.customize-control-font  label {
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    display: block;
+    font-size: 12px;
+    line-height: 28px;
+    margin-bottom: 4px;
+    margin-right: 0;
+    padding: 4px 4px 4px 13px;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.customize-control-font .rst-font-sel-family {
+    width: 146px;
+}
+.customize-control-font select {
+    margin-left: 10px;
+}
+.rst-span-font-family {
+    padding-right: 5px;
+    vertical-align: middle;
+}
